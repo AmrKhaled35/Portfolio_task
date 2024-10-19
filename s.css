@@ -1,0 +1,36 @@
+html{
+ height: 100%;
+}
+body{
+    height: 100%;
+}
+.container-fluid{
+     text-align: center;
+     height: 100%;
+}
+.header {
+    height: 40px;
+    /* width: 100%; */
+    background-color: rgb(255, 94, 0);
+}
+.footer {
+    background-color: rgb(106, 255, 0);
+
+}
+.center{
+    /* width: 100%; */
+    display: grid;
+    height: 660px;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.center .left{
+    background-color: aqua;
+}
+.center .center1{
+    background-color: blue;
+}
+.center .right{
+    background-color: rgb(255, 196, 0);
+}
+
